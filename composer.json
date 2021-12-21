@@ -1,0 +1,21 @@
+{
+    "name": "ioguns/httprouter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ishola Ogunseye",
+            "email": "ishola@oguns.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "IOguns\\HttpRouter\\": "src"
+        }
+    }
+}
